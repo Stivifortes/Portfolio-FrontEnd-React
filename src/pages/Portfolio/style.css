@@ -1,6 +1,5 @@
 .portfolioContainer {
   text-align: center;
-  background: rebeccapurple;
   margin-top: 80px;
   padding: 30px;
 }
@@ -11,4 +10,10 @@ h1 {
 .resume {
   margin: 0 auto;
   width: 500px;
+}
+
+.projectList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
