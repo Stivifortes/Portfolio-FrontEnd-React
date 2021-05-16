@@ -1,0 +1,14 @@
+.portfolioContainer {
+  text-align: center;
+  background: rebeccapurple;
+  margin-top: 80px;
+  padding: 30px;
+}
+
+h1 {
+  margin: 20px;
+}
+.resume {
+  margin: 0 auto;
+  width: 500px;
+}

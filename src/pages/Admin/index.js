@@ -1,9 +1,13 @@
 import React from 'react'
+import Layout from '../../components/Layout'
 
 export default function Admin() {
     return (
-        <div>
+        <Layout>
+            <div className='adminContainer'>
+
             Admin
-        </div>
+            </div>
+        </Layout>
     )
 }

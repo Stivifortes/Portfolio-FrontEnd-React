@@ -1,9 +1,13 @@
 import React from 'react'
+import './style.css'
+import Layout from '../../components/Layout'
 
 export default function Home() {
     return (
-        <div>
-            Home afef
-        </div>
+        <Layout>
+            <div className='homeContainer'>
+            Home jdhkfadj <br/>
+            </div>
+        </Layout>
     )
 }

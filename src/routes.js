@@ -4,6 +4,7 @@ import About from './pages/About'
 import Potfolio from './pages/Portfolio'
 import Login from './pages/Login'
 import Admin from './pages/Admin'
+import NotFound from './pages/NotFound'
 
 export const Routes = () =>{
     return(
@@ -13,9 +14,7 @@ export const Routes = () =>{
             <Route path="/portfolio" exact component={Potfolio}/>
             <Route path="/login" exact component={Login}/>
             <Route path="/admin" exact component={Admin}/>
-            <Route  render={()=>{
-                <p>Not Found 404</p>
-            }} />
+            <Route component={NotFound} />
         </Switch>
     );
 }

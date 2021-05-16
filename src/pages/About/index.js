@@ -1,9 +1,13 @@
 import React from 'react'
+import './style.css'
+import Layout from '../../components/Layout'
 
 export default function About() {
     return (
-        <div>
+        <Layout>
+            <div className='aboutContainer'>
             About
-        </div>
+            </div>
+        </Layout>
     )
 }
