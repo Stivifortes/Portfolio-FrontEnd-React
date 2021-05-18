@@ -1,6 +1,59 @@
 .aboutContainer {
   padding: 30px;
   margin-top: 80px;
-  border: 1px solid red;
   height: 700px;
+  background-color: rgb(252, 248, 248);
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.hero {
+  padding: 30px;
+  width: 30%;
+}
+
+.hero h2 {
+  margin: 20px 0;
+}
+.hero > p {
+  font-size: 16px;
+}
+
+.callToAction button {
+  border: none;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px 50px;
+  background: #45a049;
+}
+
+.info {
+  padding: 100px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.personal,
+.education {
+  margin: 30px 0;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #151617;
+}
+
+.last {
+  text-align: center;
+}
+.last button {
+  border: none;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px 50px;
+  background: #45a049;
+  margin: 20px;
 }

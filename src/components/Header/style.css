@@ -22,6 +22,8 @@ nav {
 }
 .links {
   text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
   color: rgb(238, 230, 230);
   padding: 12px;
 }
