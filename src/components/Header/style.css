@@ -6,21 +6,27 @@
 header {
   position: fixed;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
   width: 100%;
+  align-items: center;
+  justify-content: center;
   height: 80px;
-  border: 1px solid red;
+  background: #04518c;
   top: 0;
 }
 
+nav {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .links {
   text-decoration: none;
-  color: cadetblue;
+  color: rgb(238, 230, 230);
+  padding: 12px;
 }
 .links:hover {
-  padding: 10px;
-  border: 1px solid rebeccapurple;
+  border: 1px solid #151617;
 }
 .links:active {
   color: red;

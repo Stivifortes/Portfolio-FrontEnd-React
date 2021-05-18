@@ -6,6 +6,7 @@ import Logo from '../../images/logo.jpg'
 export default function Header() {
     return (
         <header>
+            <nav>
             <div>
                 <img src={Logo} alt="Logo" width='30' height='30'/>
             </div>
@@ -17,6 +18,7 @@ export default function Header() {
                     <li><Link to="/login" className="links">Login</Link></li>                    
                 </ul>
             </div>
+            </nav>
         </header>
     )
 }

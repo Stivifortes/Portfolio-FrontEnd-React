@@ -1,4 +1,6 @@
 .homeContainer {
   padding: 30px;
   margin-top: 80px;
+  border: 1px solid red;
+  height: 700px;
 }

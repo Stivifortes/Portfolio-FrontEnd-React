@@ -1,15 +1,13 @@
 .loginContainer {
   padding: 30px;
   margin-top: 80px;
+  height: 80vh;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
-.myform {
-  width: 200px;
-  padding: 20px;
-  background: chartreuse;
-}
 .loginTitle {
   text-align: center;
+  margin-bottom: 30px;
 }
