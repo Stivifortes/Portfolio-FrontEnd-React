@@ -1,6 +1,51 @@
 .homeContainer {
-  padding: 30px;
+  width: 100%;
   margin-top: 80px;
-  border: 1px solid red;
-  height: 700px;
+  box-sizing: border-box;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  padding: 100px 0;
+  box-sizing: border-box;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px;
+  justify-content: space-between;
+}
+.left {
+  width: 50%;
+  justify-content: start;
+  margin-top: 30px;
+}
+.right {
+  width: 45%;
+}
+.webDev {
+  font-size: 43px;
+  line-height: 29px;
+  letter-spacing: 0.25em;
+  color: #034f93;
+}
+.myName {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  font-size: 36px;
+  line-height: 29px;
+  letter-spacing: 0.25em;
+  color: #7da3cb;
+}
+.myName img {
+  margin-right: 10px;
+}
+
+.intro {
+  font-size: 18px;
+  line-height: 25px;
+  color: #737677;
+  margin-top: 30px;
 }

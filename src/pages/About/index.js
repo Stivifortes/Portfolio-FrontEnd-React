@@ -1,53 +1,59 @@
 import React from "react";
-import "./style.css";
+import "./about.css";
 import Layout from "../../components/Layout";
+
+import UserIcon from '../../images/svgs/user.svg'
+import fakeImg from '../../images/logo.jpg'
 
 export default function About() {
   return (
     <Layout>
       <div className="aboutContainer">
-        <section className="container">
-          <div className="hero">
-            <h2>Stiven Fortes - Computer Science</h2>
-            <p>
-              <i>
-                “You can’t connect the dots looking forward; you can only
-                connect them looking backwards. So you have to trust that the
-                dots will somehow connect in your future.”
-              </i>{" "}
-              ― Steve Jobs
-            </p>
-          </div>
-          <div className="callToAction">
-            <button>Contact Me</button>
-          </div>
-        </section>
-        <section className="info">
-          <div>
-            <h3>Personal Info</h3>
-            <div className="personal">
-              <div>+2389817768</div>
-              <div>Mindelo, Cape Verde</div>
-              <div>stivenfortes96@gmail.com</div>
-              <div>https://github.com/stivifortes</div>
+        <div className="wrappHero">
+          <section className="container">
+            <div className="hero">
+              <p className="webDev">Stiven Fortes</p>
+              <h1 className="myName name2">Based in Mindelo, Cape Verde</h1>
+              <p className="intro">
+                        Hello! I'm <span>Stiven Fortes</span> and I am a Web Developer, based in Mindelo, Cape Verde.
+                        I enjoy working on <span>usable, clean and practical</span> web sites.
+                        </p>
             </div>
-          </div>
-          <div>
-            <h3>Education</h3>
+            <div className="callToAction">
+                <div>
+                  <img src={UserIcon} alt="" />
+                  (+238) 981-77-68
+                </div>
+                <div>
+                  <img src={UserIcon} alt="" />
+                  Mindelo, Cape Verde</div>
+                <div>
+                  <img src={UserIcon} alt="" />
+                  stivenfortes96@gmail.com</div>
+                <div>
+                  <img src={UserIcon} alt="" />
+                  https://github.com/stivifortes</div>
+                <div>
+                  <img src={UserIcon} alt="" />
+                  https://linkedin.in/stivifortes</div>
+            </div>
+          </section>
+        </div>
+        <div className="wrappHero">
+          <section className="container" style={{alignItems: 'start'}}>
+            <div className="hero" style={{margin: '0px'}}>
+              <img src={fakeImg} alt=""  width='420px'/>
+            </div>
             <div className="education">
-              <div>Computer Science - University of Mindelo</div>
-              <div>React Youtube Tutorial</div>
-              <div>MernStack - Udemy Course</div>
-              <div>High School - ETJV</div>
+            <div className='webDev' style={{ marginBottom: '20px'}}>Education</div>
+              <div style={{color: '#737677'}}>Computer Science - University of Mindelo</div>
+              <div style={{color: '#737677'}}>React Youtube Tutorial</div>
+              <div style={{color: '#737677'}}>MernStack - Udemy Course</div>
+              <div style={{color: '#737677'}}>High School - ETJV</div>
             </div>
-          </div>
-        </section>
-        <section className="last">
-          <button>See My Projects</button>
-          <p>
-            Lorem ipsum dolorus ipsal mendium Lorem ipsum dolorus ipsal mendium
-          </p>
-        </section>
+          </section>
+        </div>
+        
       </div>
     </Layout>
   );

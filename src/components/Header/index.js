@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 import { Link } from "react-router-dom";
-import Logo from "../../images/logoSteve.png";
+import Logo from "../../images/svgs/logo.svg";
 
 export default function Header() {
   return (
@@ -9,7 +9,7 @@ export default function Header() {
       <nav>
         <div>
           <Link to="/">
-            <img src={Logo} alt="Logo" width="130" />
+            <img src={Logo} alt="Logo" width="100" />
           </Link>
         </div>
         <div>
@@ -25,15 +25,15 @@ export default function Header() {
               </Link>
             </li>
             <li>
-              <Link to="/portfolio" className="links">
+              <Link to="/portfolio" className="links button_pf">
                 Porfolio
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link to="/login" className="links">
                 Login
               </Link>
-            </li>
+            </li> */}
           </ul>
         </div>
       </nav>

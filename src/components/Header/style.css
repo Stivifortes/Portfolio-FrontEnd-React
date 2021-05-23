@@ -10,7 +10,7 @@ header {
   align-items: center;
   justify-content: center;
   height: 80px;
-  background: #04518c;
+  background: #fff;
   top: 0;
 }
 
@@ -24,11 +24,18 @@ nav {
   text-decoration: none;
   font-size: 18px;
   font-weight: 600;
-  color: rgb(238, 230, 230);
+  color: #737677;
   padding: 12px;
 }
+
+.button_pf {
+  margin-left: 10px;
+  color: #fff;
+  background-color: #0fbab6;
+  padding: 12px 30px;
+}
 .links:hover {
-  border: 1px solid #151617;
+  border: 1px solid #0fbab6;
 }
 .links:active {
   color: red;
