@@ -1,5 +1,6 @@
 import React from "react";
 import { useAuthentication } from "../useAuthentication";
+import { FaEdit, FaTrash } from "react-icons/fa";
 import "./style.css";
 
 const Project = (props) => {
@@ -18,8 +19,12 @@ const Project = (props) => {
         <p>URL: {repository} </p>
         {isAuthenticated && showButtons && (
           <>
-            <button>Edit</button>
-            <button>Remove</button>
+            <button className="edit">
+              <FaEdit />
+            </button>
+            <button className="remove">
+              <FaTrash />
+            </button>
           </>
         )}
       </div>

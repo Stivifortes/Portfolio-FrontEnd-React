@@ -4,14 +4,17 @@ import Layout from "../../components/Layout";
 import Form from "../../components/Form";
 import AdminProjectList from "../../components/AdminProjectList";
 import Authenticated from "../../components/Authenticated";
-
+import { FaPlus } from "react-icons/fa";
 const Admin = () => {
   return (
     <Layout>
       <div className="adminContainer">
         <div>
           <h2 style={{ textAlign: "center", margin: "25px" }}>
-            Create A New Project
+            Add A New Project{" "}
+            <button className="addProject">
+              <FaPlus />
+            </button>
           </h2>
           <div className="projectList">
             <AdminProjectList />

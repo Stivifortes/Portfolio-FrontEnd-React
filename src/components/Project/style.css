@@ -5,6 +5,7 @@
   margin: 20px;
   padding: 10px;
   border-radius: 10px;
+  position: relative;
 }
 
 .projectContainer:hover {
@@ -25,4 +26,34 @@
 .hidedInfo p {
   word-wrap: break-word;
   box-sizing: border-box;
+}
+
+.edit,
+.remove,
+.addProject {
+  font-size: 16px;
+  border: none;
+  padding: 5px 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.edit {
+  position: absolute;
+  background-color: #2bb918;
+  top: 0;
+  right: 0;
+}
+
+.remove {
+  position: absolute;
+  background-color: red;
+  top: 40px;
+  right: 0px;
+}
+
+.addProject {
+  color: #fff;
+  background-color: #2bb918;
+  border-radius: 45%;
 }
