@@ -4,7 +4,8 @@
 
 label {
   font-size: 14px;
-  font-weight: 550;
+  font-weight: 500;
+  margin-bottom: 5px;
 }
 input[type="text"] {
   width: 100%;
@@ -14,6 +15,7 @@ input[type="text"] {
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
+  font-size: 14px;
 }
 input[type="password"] {
   width: 100%;
@@ -27,7 +29,8 @@ input[type="password"] {
 
 input[type="submit"] {
   width: 100%;
-  background-color: #4caf50;
+  font-size: 16px;
+  background-color: #17a4cf;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -37,11 +40,5 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background-color: #45a049;
+  background-color: #0e86aa;
 }
-
-/* div {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
-} */

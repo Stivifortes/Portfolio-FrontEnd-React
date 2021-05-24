@@ -1,6 +1,8 @@
 .adminContainer {
   padding: 30px;
   margin-top: 80px;
+  height: 80vh;
   display: flex;
+  align-items: center;
   justify-content: center;
 }

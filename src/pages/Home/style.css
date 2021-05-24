@@ -1,10 +1,23 @@
 .homeContainer {
   width: 100%;
   margin-top: 80px;
+  padding-top: 80px;
   box-sizing: border-box;
   height: 90vh;
   display: flex;
   justify-content: center;
+  background: rgb(9, 37, 58);
+  /* background: linear-gradient(
+    112deg,
+    rgba(9, 37, 58, 1) 0%,
+    rgba(11, 60, 90, 1) 96%
+  ); */
+  background: radial-gradient(
+    circle,
+    rgba(107, 106, 124, 1) 0%,
+    rgba(112, 112, 157, 1) 0%,
+    rgba(22, 23, 23, 1) 0%
+  );
 }
 
 .wrapper {
@@ -28,7 +41,7 @@
   font-size: 43px;
   line-height: 29px;
   letter-spacing: 0.25em;
-  color: #034f93;
+  color: #d1d1d1;
 }
 .myName {
   margin-top: 15px;
@@ -37,7 +50,7 @@
   font-size: 36px;
   line-height: 29px;
   letter-spacing: 0.25em;
-  color: #7da3cb;
+  color: #17a4cf;
 }
 .myName img {
   margin-right: 10px;
@@ -46,6 +59,31 @@
 .intro {
   font-size: 18px;
   line-height: 25px;
-  color: #737677;
+  /* color: #737677; */
+  color: #d1d1d1;
   margin-top: 30px;
+}
+
+.Buttons button {
+  font-size: 16px;
+  border: none;
+  color: #d1d1d1;
+  background-color: #17a4cf;
+  padding: 12px 40px;
+  margin-top: 120px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.Buttons button:hover {
+  background-color: #0f83a7;
+}
+
+#pf_home {
+  border: 1px solid #17a4cf;
+  background: transparent;
+  color: #17a4cf;
+}
+#pf_home:hover {
+  color: #d1d1d1;
+  border: 1px solid #d1d1d1;
 }

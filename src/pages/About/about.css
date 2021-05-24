@@ -1,5 +1,13 @@
 .aboutContainer {
   margin-top: 80px;
+  padding-top: 60px;
+  background: rgb(9, 37, 58);
+  background: radial-gradient(
+    circle,
+    rgba(107, 106, 124, 1) 0%,
+    rgba(112, 112, 157, 1) 0%,
+    rgba(22, 23, 23, 1) 0%
+  );
 }
 
 .wrappHero {
@@ -28,7 +36,7 @@
 
 .education {
   padding: 25px;
-  width: 30%;
+  width: 35%;
   height: 250px;
   border: none;
 }
@@ -39,22 +47,37 @@
 
 .callToAction {
   padding: 25px;
-  width: 30%;
+  width: 22%;
   height: 250px;
   border-radius: 5px;
   border: 1px solid #d1d1d1;
   box-shadow: 10px 10px #0fbab6;
 }
 .callToAction div {
+  /* box-sizing: border-box; */
   display: flex;
   align-items: center;
   margin: 20px;
   font-size: 14px;
+  /* color: #8f5cbb; */
+  color: #17a4cf;
   text-transform: uppercase;
 }
 
-.callToAction img {
-  margin-right: 5px;
+.inconsLink {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #17a4cf;
+}
+.inconsLink:hover {
+  color: #0fbab6;
+}
+/* #7a23c6 */
+.callToAction svg {
+  margin-right: 10px;
+  /* color: #aa5a92; */
+  color: #d1d1d1;
 }
 .info {
   padding: 100px;
@@ -64,25 +87,4 @@
 
 .name2 {
   font-size: 20px;
-}
-
-/* .personal,
-.education {
-  margin: 30px 0;
-  padding: 20px;
-  border-radius: 10px;
-  border: 1px solid #151617;
-} */
-
-.last {
-  text-align: center;
-}
-.last button {
-  border: none;
-  color: #fff;
-  font-size: 14px;
-  font-weight: bold;
-  padding: 10px 50px;
-  background: #0fbab6;
-  margin: 20px;
 }

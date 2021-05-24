@@ -1,6 +1,26 @@
 .projectContainer {
-  width: 450px;
+  width: 350px;
   height: 250px;
   border: 1px solid red;
   margin: 20px;
+  padding: 10px;
+}
+
+.projectContainer:hover {
+  transform: scale(1.1, 1.1);
+}
+.projectContainer div {
+  width: 100%;
+}
+.projectContainer div img {
+  width: 100%;
+}
+.hidedInfo {
+  width: 100%;
+  color: #17a4cf;
+}
+
+.hidedInfo p {
+  word-wrap: break-word;
+  box-sizing: border-box;
 }
