@@ -1,7 +1,6 @@
-import React from "react";
 import "./style.css";
 import Layout from "../../components/Layout";
-import Project from "../../components/Project";
+import ProjectList from "../../components/ProjectList";
 
 export default function Portfolio() {
   return (
@@ -14,14 +13,7 @@ export default function Portfolio() {
             doloris aicajhLorem ipsum doloris aicajhLorem ipsum doloris
             aicajhLorem ipsum doloris aicajhLorem ipsum doloris aicajh
           </p>
-          <div className="projectList">
-            <Project />
-            <Project />
-            <Project />
-            <Project />
-            <Project />
-            <Project />
-          </div>
+          <ProjectList />
         </div>
       </div>
     </Layout>

@@ -1,28 +1,30 @@
-import React, { useState } from "react";
+import React from "react";
+import { useAuthentication } from "../useAuthentication";
 import "./style.css";
-import image from "../../images/logo.jpg";
 
-export default function Project(props) {
-  const [isShow, setIsShow] = useState(false);
+const Project = (props) => {
+  const { image_url, project, repository, description, showButtons } = props;
+
+  const isAuthenticated = useAuthentication();
 
   return (
-    <div
-      className="projectContainer"
-      onMouseEnter={() => setIsShow(true)}
-      onMouseLeave={() => setIsShow(false)}
-    >
+    <div className="projectContainer">
       <div>
-        <img src={image} alt="" width="150" height="150" />
+        <img src={image_url} alt="" width="150" height="150" />
       </div>
-      {isShow && (
-        <div className="hidedInfo">
-          <p>Project:</p>
-          <p>
-            Description:sfgihaojgsfijgsjflgjflsjglsfjglksfjglkfsjalkgfkgjsfgsfgjlsjfgafjsg
-          </p>
-          <p>URL: </p>
-        </div>
-      )}
+      <div className="hidedInfo">
+        <p>Project: {project}</p>
+        <p>Description:{description}</p>
+        <p>URL: {repository} </p>
+        {isAuthenticated && showButtons && (
+          <>
+            <button>Edit</button>
+            <button>Remove</button>
+          </>
+        )}
+      </div>
     </div>
   );
-}
+};
+
+export default Project;

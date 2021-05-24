@@ -1,9 +1,10 @@
 .projectContainer {
   width: 350px;
   height: 250px;
-  border: 1px solid red;
+  border: 1px solid #17a4cf;
   margin: 20px;
   padding: 10px;
+  border-radius: 10px;
 }
 
 .projectContainer:hover {
@@ -16,8 +17,9 @@
   width: 100%;
 }
 .hidedInfo {
+  margin-top: 15px;
   width: 100%;
-  color: #17a4cf;
+  color: #d1d1d1;
 }
 
 .hidedInfo p {
