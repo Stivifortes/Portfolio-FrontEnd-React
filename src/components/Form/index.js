@@ -28,7 +28,6 @@ export default function Form() {
       description: projectDescription.trim(),
       repository: projectRepositoryUrl.trim(),
       image_url: projectImageUrl.trim(),
-      id_user: 10,
     };
     try {
       const result = await api.post("/project", data);

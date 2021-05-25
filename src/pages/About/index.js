@@ -17,7 +17,7 @@ export default function About() {
     <Layout>
       <div className="aboutContainer">
         <div className="wrappHero">
-          <section className="container">
+          <section className="container" style={{width: '90%'}}>
             <div className="hero">
               <h1 className="webDev">Stiven Fortes</h1>
               <h1 className="myName name2">Based in Mindelo, Cape Verde</h1>
@@ -70,7 +70,7 @@ export default function About() {
             </div>
             <div className="education">
               <div className="webDev" style={{ marginBottom: "20px" }}>
-                Work Experience
+                Resume
               </div>
               <div style={{ color: "#17a4cf", fontSize: "18px" }}>
                 Front-end Web Developer, Devgo Lda, 2020 - Present

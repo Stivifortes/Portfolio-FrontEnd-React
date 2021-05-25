@@ -9,9 +9,7 @@ export default function Portfolio() {
         <div className="portfolioMain">
           <h1>My Personal Portfolio</h1>
           <p className="resume">
-            Lorem ipsum doloris aicajh korem ipsum doloris aicajh Lorem ipsum
-            doloris aicajhLorem ipsum doloris aicajhLorem ipsum doloris
-            aicajhLorem ipsum doloris aicajhLorem ipsum doloris aicajh
+            Last projects i've been working to Lorem ipsum doloris.
           </p>
           <ProjectList />
         </div>

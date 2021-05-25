@@ -4,7 +4,7 @@
   display: flex;
   justify-content: center;
   margin-top: 80px;
-  padding: 80px;
+  padding: 20px;
   background: radial-gradient(
     circle,
     rgba(107, 106, 124, 1) 0%,
@@ -14,7 +14,7 @@
 }
 
 .portfolioMain {
-  width: 85%;
+  width: 90%;
 }
 
 .portfolioMain h1 {

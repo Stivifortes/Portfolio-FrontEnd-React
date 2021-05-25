@@ -16,18 +16,18 @@ export default function Home() {
               Stiven Fortes
             </h1>
             <p className="intro">
-              {/* “You can’t connect the dots looking forward; you can only connect
+              “You can’t connect the dots looking forward; you can only connect
               them looking backwards. So you have to trust that the dots will
               somehow connect in your future.” ― Steve Jobs
-              <br /> */}
-              <br />I am currently working as a front end web developer at
+              <br />
+              {/* <br />I am currently working as a front end web developer at
               Mindelo. I'm also at the last year of my computer science course,
               where i studied a variety of things like: Machine Learning, Mobile
               and Web Development , and 3D Modeling, to name a few. I consider
               myself a self learner as i am constantly striving to learn new
               things (i am currently studding OpenCv and NodeJs). All of this
               because i really like to be involved with everything about
-              technologies.
+              technologies. */}
             </p>
             <div className="Buttons">
               <button>Contact</button>

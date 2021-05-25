@@ -1,7 +1,7 @@
 .homeContainer {
   width: 100%;
   margin-top: 80px;
-  padding-top: 80px;
+  padding-top: 10px;
   box-sizing: border-box;
   height: 90vh;
   display: flex;
@@ -61,7 +61,7 @@
   line-height: 25px;
   /* color: #737677; */
   color: #d1d1d1;
-  margin-top: 30px;
+  margin-top: 0px;
 }
 
 .Buttons button {
