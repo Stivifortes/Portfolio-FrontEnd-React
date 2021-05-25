@@ -5,7 +5,7 @@ export default function LoginForm(props) {
   const { handlePassword, handleUsername, handleSubmit } = props;
 
   return (
-    <div style={{ padding: "5px" }}>
+    <div style={{ padding: "5px", width: "350px" }}>
       <form onSubmit={handleSubmit}>
         <label htmlFor="username">Username</label>
         <input

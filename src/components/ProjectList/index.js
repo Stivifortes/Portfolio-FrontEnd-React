@@ -24,6 +24,7 @@ export default function ProjectList(props) {
         projects.map((p) => {
           return (
             <Project
+              key={p.id}
               image_url={p.image_url}
               description={p.description}
               repository={p.repository}

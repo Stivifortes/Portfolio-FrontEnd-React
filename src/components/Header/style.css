@@ -17,6 +17,7 @@ header {
     rgba(22, 23, 23, 1) 0%
   );
   top: 0;
+  z-index: 9999;
 }
 
 nav {

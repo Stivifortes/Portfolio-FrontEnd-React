@@ -53,7 +53,15 @@
 }
 
 .addProject {
-  color: #fff;
-  background-color: #2bb918;
-  border-radius: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #17a4cf;
+  padding: 3px;
+  background-color: #fff;
+  border: 1px solid #17a4cf;
+  border-radius: 50%;
+}
+.addProject button {
+  margin: 20px;
 }
